@@ -1,0 +1,1000 @@
+ 1021  ls
+ 1022  vi sources_widget.py 
+ 1023  vi ../util/api_utils.py 
+ 1024  vi sources_widget.py 
+ 1025  vi reviews_widget.py 
+ 1026  cd ../../../newalerts
+ 1027  ls
+ 1028  cd lib/
+ 1029  vi send_alert_mails.py
+ 1030  ipython
+ 1031  clear
+ 1032  ipython
+ 1033  clear
+ 1034  cd workspace/trustyou/widgets/lib/pages/
+ 1035  vi reviews_widget.py 
+ 1036  color
+ 1037  clear
+ 1038  cd workspace/trustyou/
+ 1039  clear
+ 1040  ls
+ 1041  clear
+ 1042  color
+ 1043  clear
+ 1044  mkdir alerts_app
+ 1045  cd alerts_app/
+ 1046  git init
+ 1047  gitk
+ 1048  ls
+ 1049  mkdir bin
+ 1050  mkdir etc
+ 1051  mkdir lib
+ 1052  mkdir srv
+ 1053  mkdir test
+ 1054  touch alerts.rpy
+ 1055  chmod u+x alerts.rpy 
+ 1056  clear
+ 1057  vi MANIFEST.in
+ 1058  ls
+ 1059  vi setup.py
+ 1060  chmod u+x setup.py 
+ 1061  color
+ 1062  clear
+ 1063  ls
+ 1064  color
+ 1065  clear
+ 1066  vi alerts.rpy 
+ 1067  clear
+ 1068  ./alerts.rpy 
+ 1069  vi alerts.rpy 
+ 1070  ./alerts.rpy 
+ 1071  vi alerts.rpy 
+ 1072  ./alerts.rpy 
+ 1073  vi alerts.rpy 
+ 1074  ./alerts.rpy 
+ 1075  vi alerts.rpy 
+ 1076  ./alerts.rpy 
+ 1077  vi alerts.rpy 
+ 1078  ./alerts.rpy 
+ 1079  vi alerts.rpy 
+ 1080  ./alerts.rpy 
+ 1081  vi alerts.rpy 
+ 1082  vi setup.py 
+ 1083  ./alerts.rpy 
+ 1084  git add .
+ 1085  git commit -a -m "creating alerts_app basic structure"
+ 1086  ./alerts.rpy 
+ 1087  cd lib/
+ 1088  mkdir util
+ 1089  cd util/
+ 1090  scp -r meyyarp@vm1.trustyou.com:widgets/lib/util/* .
+ 1091  ls
+ 1092  color
+ 1093  clear
+ 1094  cd ../../
+ 1095  ./alerts.rpy 
+ 1096  cd lib/util/
+ 1097  ls
+ 1098  ls -l
+ 1099  clear
+ 1100  ls
+ 1101  color
+ 1102  clear
+ 1103  ls
+ 1104  coor
+ 1105  color
+ 1106  clear
+ 1107  cd ..
+ 1108  cd ../
+ 1109  ./alerts.rpy 
+ 1110  vi setup.py
+ 1111  cd lib/util/
+ 1112  ls
+ 1113  color
+ 1114  clear
+ 1115  cd ..
+ 1116  twistd -n web --path .
+ 1117  cd ..
+ 1118  twistd -n web --path .
+ 1119  vi alerts.rpy 
+ 1120  twistd -n web --path .
+ 1121  vi alerts.rpy 
+ 1122  twistd -n web --path .
+ 1123  vi alerts.rpy 
+ 1124  twistd -n web --path .
+ 1125  vi alerts.rpy 
+ 1126  python
+ 1127  vi alerts.rpy 
+ 1128  twistd -n web --path .
+ 1129  python
+ 1130  pwd
+ 1131  vi alerts.rpy 
+ 1132  twistd -n web --path .
+ 1133  ./alerts.rpy 
+ 1134  vi etc/.alerts
+ 1135  ./alerts.rpy 
+ 1136  vi etc/.alerts
+ 1137  ./alerts.rpy 
+ 1138  chmod u+x etc/.alerts
+ 1139  ./alerts.rpy 
+ 1140  vi alerts.rpy 
+ 1141  ./alerts.rpy 
+ 1142  vi alerts.rpy 
+ 1143  ./alerts.rpy 
+ 1144  vi alerts.rpy 
+ 1145  ./alerts.rpy 
+ 1146  ipython
+ 1147  ./alerts.rpy 
+ 1148  sudo apt-get install psycopg2
+ 1149  cd ~
+ 1150  sudo apt-get install libpq-dev python-dev
+ 1151  pip install http://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.4.tar.gz 
+ 1152  sudo pip install http://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.4.tar.gz 
+ 1153  cd workspace/trustyou/alerts_app/
+ 1154  clear
+ 1155  ./alerts.rpy 
+ 1156  vi alerts.rpy 
+ 1157  ./alerts.rpy 
+ 1158  vi etc/.alerts 
+ 1159  ./alerts.rpy 
+ 1160  vi etc/.alerts 
+ 1161  ./alerts.rpy 
+ 1162  vi etc/.alerts 
+ 1163  ./alerts.rpy 
+ 1164  cp etc/.alerts etc/config
+ 1165  clear
+ 1166  mv etc/.alerts etc/.alerts_app
+ 1167  cp etc/.alerts_app ~
+ 1168  clear
+ 1169  ./alerts.rpy 
+ 1170  vi /home/meyyu/.alerts_app 
+ 1171  vi alerts.rpy 
+ 1172  vi /home/meyyu/.alerts_app 
+ 1173  ./alerts.rpy 
+ 1174  vi /home/meyyu/.alerts_app 
+ 1175  ./alerts.rpy 
+ 1176  vi alerts.rpy 
+ 1177  ./alerts.rpy 
+ 1178  vi alerts.rpy 
+ 1179  ./alerts.rpy 
+ 1180  vi alerts.rpy 
+ 1181  ./alerts.rpy 
+ 1182  vi alerts.rpy 
+ 1183  ./alerts.rpy 
+ 1184  clear
+ 1185  color
+ 1186  clear
+ 1187  ./alerts.rpy 
+ 1188  cp ../../twisted/simpleServer.py .
+ 1189  vi simpleServer.py 
+ 1190  cd lib/
+ 1191  mkdir pages
+ 1192  cd pages
+ 1193  ls
+ 1194  cp ../../simpleServer.py  ExamplePage.py
+ 1195  vi ExamplePage.py 
+ 1196  mv ExamplePage.py buy_page.py
+ 1197  ls
+ 1198  clear
+ 1199  color
+ 1200  clear
+ 1201  cd ../..
+ 1202  vi alerts.rpy 
+ 1203  ./alerts.rpy 
+ 1204  vi alerts.rpy 
+ 1205  cd lib/pages/
+ 1206  ls
+ 1207  chmod u+x buy_page.py 
+ 1208  clear
+ 1209  python
+ 1210  cd ../..
+ 1211  vi alerts.rpy 
+ 1212  vi lib/pages/buy_page.py 
+ 1213  ./alerts.rpy 
+ 1214  ls
+ 1215  cd lib/
+ 1216  ls
+ 1217  cd ..
+ 1218  ls
+ 1219  ./alerts.rpy 
+ 1220  cd lib/
+ 1221  ls
+ 1222  ls -l
+ 1223  clear
+ 1224  cd ..
+ 1225  ls
+ 1226  cd lib/
+ 1227  ls
+ 1228  clear
+ 1229  cd ..
+ 1230  vi alerts.rpy 
+ 1231  ipython
+ 1232  vi alerts.rpy 
+ 1233  ipython
+ 1234  cp lib/pages/buy_page.py .
+ 1235  vi alerts.rpy 
+ 1236  ./alerts.rpy 
+ 1237  vi alerts.rpy 
+ 1238  ./alerts.rpy 
+ 1239  vi alerts.rpy 
+ 1240  ./alerts.rpy -p 8001
+ 1241  clear
+ 1242  ls
+ 1243  mv buy_page.py buy_page.py.old
+ 1244  clear
+ 1245  rm buy_page.pyc 
+ 1246  clear
+ 1247  ls
+ 1248  cd lib/
+ 1249  cd pages/
+ 1250  ls
+ 1251  chmod 665 buy_page.py 
+ 1252  ls
+ 1253  chmod 660 buy_page.py 
+ 1254  ls
+ 1255  clear
+ 1256  chmod 644 buy_page.py 
+ 1257  clear
+ 1258  cd ../..
+ 1259  vi alerts.rpy 
+ 1260  ./alerts.rpy -p 8001
+ 1261  vi alerts.rpy 
+ 1262  ./alerts.rpy -p 8001
+ 1263  vi alerts.rpy 
+ 1264  ./alerts.rpy -p 8001
+ 1265  clear
+ 1266  ls
+ 1267  cp ../newalerts/.gitignore .
+ 1268  vi .git
+ 1269  vi .gitignore 
+ 1270  ls
+ 1271  vi .gitignore 
+ 1272  ls
+ 1273  clear
+ 1274  rm buy_page.py.old 
+ 1275  ls
+ 1276  rm simpleServer.py 
+ 1277  rm setup.pyc
+ 1278  ls
+ 1279  cd srv
+ 1280  ls
+ 1281  mkdir sql
+ 1282  mkdir templates
+ 1283  ld
+ 1284  ls
+ 1285  mkdir static
+ 1286  clear
+ 1287  ls
+ 1288  cd ..
+ 1289  ls
+ 1290  vi setup.py 
+ 1291  vi alerts.rpy 
+ 1292  ./alerts.rpy 
+ 1293  vi alerts.rpy 
+ 1294  ./alerts.rpy 
+ 1295  ./alerts.rpy -p 8001
+ 1296  clear
+ 1297  ls
+ 1298  cd lib/pages/
+ 1299  ls
+ 1300  vi 
+ 1301  ls
+ 1302  cp buy_page.py settings_page.py
+ 1303  vi settings_page.py 
+ 1304  cd ../../..
+ 1305  git clone repo.trustyou.com:/build/git/main/widgets
+ 1306  git clone meyyarp@repo.trustyou.com:/build/git/main/widgets
+ 1307  cd widgets/
+ 1308  ls
+ 1309  cd lib/pages/
+ 1310  ls
+ 1311  vi venue_page.py 
+ 1312  ls
+ 1313  vi seal_widget.py 
+ 1314  cp venue_page.py seal_widget.py  ../../../alerts_app/lib/pages/
+ 1315  cd ../../../alerts_app/
+ 1316  ls
+ 1317  cd lib/pages/
+ 1318  ls
+ 1319  vi venue_page.py 
+ 1320  mv venue_page.py settings_page.py
+ 1321  ls
+ 1322  vi settings_page.py 
+ 1323  vi seal_widget.py 
+ 1324  cd ../../../widgets/lib/pages/
+ 1325  ls
+ 1326  vi venue_page.py 
+ 1327  cd ../../../alerts_app/lib/pages/
+ 1328  vi settings_page.py 
+ 1329  cp ../../../widgets/lib/pages/reviews_widget.py .
+ 1330  mv reviews_widget.py settings.py
+ 1331  vi settings.py 
+ 1332  ls
+ 1333  vi seal_widget.py 
+ 1334  rm seal_widget.py 
+ 1335  ls
+ 1336  vi settings.py 
+ 1337  vi settings_page.py 
+ 1338  vi settings
+ 1339  vi settings.py 
+ 1340  mv settings.py example
+ 1341  cp example settings.py
+ 1342  vi settings
+ 1343  vi settings.py 
+ 1344  cd ../../
+ 1345  ./alerts.rpy 
+ 1346  ./alerts.rpy -p 8001
+ 1347  vi alerts.rpy 
+ 1348  ./alerts.rpy -p 8001
+ 1349  vi lib/pages/settings.py
+ 1350  ./alerts.rpy -p 8001
+ 1351  vi lib/pages/settings_page.py
+ 1352  ls
+ 1353  ls lib/pages/
+ 1354  vi lib/pages/settings.py
+ 1355  ./alerts.rpy -p 8001
+ 1356  vi alerts.rpy 
+ 1357  ./alerts.rpy -p 8001
+ 1358  vi alerts.rpy 
+ 1359  ./alerts.rpy -p 8001
+ 1360  vi alerts.rpy 
+ 1361  vi lib/pages/settings_page.py
+ 1362  vi alerts.rpy 
+ 1363  ./alerts.rpy -p 8001
+ 1364  vi lib/pages/settings_page.py
+ 1365  vi lib/pages/settings_page.py
+ 1366  vi lib/pages/settings.py
+ 1367  ./alerts.rpy -p 8001
+ 1368  vi alerts.rpy 
+ 1369  ./alerts.rpy -p 8001
+ 1370  \\\
+ 1371  vi lib/pages/settings.py
+ 1372  ./alerts.rpy -p 8001
+ 1373  vi lib/pages/settings.py
+ 1374  ./alerts.rpy -p 8001
+ 1375  vi lib/pages/settings.py
+ 1376  ./alerts.rpy -p 8001
+ 1377  vi lib/pages/settings.py
+ 1378  ./alerts.rpy -p 8001
+ 1379  vi lib/pages/settings.py
+ 1380  ./alerts.rpy -p 8001
+ 1381  vi lib/pages/settings.py
+ 1382  ./alerts.rpy -p 8001
+ 1383  vi lib/pages/settings.py
+ 1384  ./alerts.rpy -p 8001
+ 1385  vi lib/pages/settings.py
+ 1386  ./alerts.rpy -p 8001
+ 1387  vi lib/pages/settings.py
+ 1388  ./alerts.rpy -p 8001
+ 1389  vi lib/pages/settings.py
+ 1390  ./alerts.rpy -p 8001
+ 1391  vi lib/pages/settings.py
+ 1392  ./alerts.rpy -p 8001
+ 1393  vi lib/pages/settings.py
+ 1394  ./alerts.rpy -p 8001
+ 1395  vi lib/pages/settings.py
+ 1396  ./alerts.rpy -p 8001
+ 1397  vi lib/pages/settings.py
+ 1398  ./alerts.rpy -p 8001
+ 1399  vi lib/pages/settings.py
+ 1400  ./alerts.rpy -p 8001
+ 1401  vi lib/pages/settings.py
+ 1402  ./alerts.rpy -p 8001
+ 1403  vi lib/pages/settings.py
+ 1404  ./alerts.rpy -p 8001
+ 1405  vi lib/pages/settings.py
+ 1406  ./alerts.rpy -p 8001
+ 1407  cd ../../
+ 1408  cd twisted/
+ 1409  vi simpleServer
+ 1410  vi simpleServer.`
+ 1411  vi simpleServer.py
+ 1412  cd -
+ 1413  cd trustyou/alerts_app/
+ 1414  vi lib/pages/settings.py
+ 1415  vi lib/pages/settings_page.py
+ 1416  vi alerts.rpy 
+ 1417  ./alerts.rpy -p 8001
+ 1418  vi lib/pages/settings.py
+ 1419  clear
+ 1420  vi alerts.rpy 
+ 1421  ./alerts.rpy -p 8001
+ 1422  vi alerts.rpy 
+ 1423  ./alerts.rpy -p 8001
+ 1424  vi lib/pages/settings.py
+ 1425  ./alerts.rpy -p 8001
+ 1426  vi lib/pages/settings.py
+ 1427  vi alerts.rpy 
+ 1428  pwd
+ 1429  cd lib/
+ 1430  pwd
+ 1431  cd ..
+ 1432  vi lib/pages/settings.py
+ 1433  ./alerts.rpy -p 8001
+ 1434  vi alerts.rpy 
+ 1435  vi lib/pages/settings.py
+ 1436  vi alerts.rpy 
+ 1437  ./alerts.rpy -p 8001
+ 1438  vi alerts.rpy 
+ 1439  vi lib/pages/settings.py
+ 1440  ./alerts.rpy -p 8001
+ 1441  vi lib/pages/settings.py
+ 1442  ./alerts.rpy -p 8001
+ 1443  vi lib/pages/settings.py
+ 1444  ./alerts.rpy -p 8001
+ 1445  vi lib/pages/settings.py
+ 1446  ./alerts.rpy -p 8001
+ 1447  vi lib/pages/settings.py
+ 1448  ./alerts.rpy -p 8001
+ 1449  vi lib/pages/settings.py
+ 1450  ./alerts.rpy -p 8001
+ 1451  clear
+ 1452  vi lib/pages/settings_page.py
+ 1453  ./alerts.rpy -p 8001
+ 1454  ls
+ 1455  color
+ 1456  clear
+ 1457  ./alerts.rpy -p 8001
+ 1458  vi lib/pages/settings.py
+ 1459  ./alerts.rpy -p 8001
+ 1460  vi lib/pages/settings.py
+ 1461  ./alerts.rpy -p 8001
+ 1462  vi lib/pages/settings.py
+ 1463  ./alerts.rpy -p 8001
+ 1464  vi lib/pages/settings.py
+ 1465  ./alerts.rpy -p 8001
+ 1466  vi lib/pages/settings.py
+ 1467  ./alerts.rpy -p 8001
+ 1468  vi lib/pages/settings.py
+ 1469  ./alerts.rpy -p 8001
+ 1470  vi lib/pages/settings.py
+ 1471  ./alerts.rpy -p 8001
+ 1472  vi lib/pages/settings.py
+ 1473  ./alerts.rpy -p 8001
+ 1474  vi lib/pages/settings.py
+ 1475  ./alerts.rpy -p 8001
+ 1476  vi lib/pages/settings.py
+ 1477  ./alerts.rpy -p 8001
+ 1478  vi lib/pages/settings.py
+ 1479  ./alerts.rpy -p 8001
+ 1480  vi lib/pages/settings.py
+ 1481  ./alerts.rpy -p 8001
+ 1482  vi lib/pages/settings.py
+ 1483  ./alerts.rpy -p 8001
+ 1484  vi lib/pages/settings.py
+ 1485  ./alerts.rpy -p 8001
+ 1486  vi lib/pages/settings.py
+ 1487  ./alerts.rpy -p 8001
+ 1488  vi lib/pages/settings.py
+ 1489  ./alerts.rpy -p 8001
+ 1490  vi lib/pages/settings.py
+ 1491  ./alerts.rpy -p 8001
+ 1492  vi lib/pages/settings.py
+ 1493  ./alerts.rpy -p 8001
+ 1494  vi lib/pages/settings.py
+ 1495  ./alerts.rpy -p 8001
+ 1496  vi lib/pages/settings.py
+ 1497  ./alerts.rpy -p 8001
+ 1498  vi lib/pages/settings.py
+ 1499  ./alerts.rpy -p 8001
+ 1500  vi lib/pages/settings.py
+ 1501  ./alerts.rpy -p 8001
+ 1502  vi lib/pages/settings.py
+ 1503  ./alerts.rpy -p 8001
+ 1504  vi lib/pages/settings.py
+ 1505  ./alerts.rpy -p 8001
+ 1506  vi lib/pages/settings.py
+ 1507  ./alerts.rpy -p 8001
+ 1508  vi lib/pages/settings.py
+ 1509  ./alerts.rpy -p 8001
+ 1510  vi lib/pages/settings.py
+ 1511  ./alerts.rpy -p 8001
+ 1512  vi lib/pages/settings.py
+ 1513  ./alerts.rpy -p 8001
+ 1514  vi lib/pages/settings.py
+ 1515  ./alerts.rpy -p 8001
+ 1516  vi lib/pages/settings.py
+ 1517  ./alerts.rpy -p 8001
+ 1518  vi lib/pages/settings.py
+ 1519  ./alerts.rpy -p 8001
+ 1520  vi lib/pages/settings.py
+ 1521  ./alerts.rpy -p 8001
+ 1522  vi lib/pages/settings.py
+ 1523  ./alerts.rpy -p 8001
+ 1524  vi lib/pages/settings.py
+ 1525  ./alerts.rpy -p 8001
+ 1526  vi lib/pages/settings.py
+ 1527  ./alerts.rpy -p 8001
+ 1528  vi lib/pages/settings.py
+ 1529  ./alerts.rpy -p 8001
+ 1530  vi lib/pages/settings.py
+ 1531  ./alerts.rpy -p 8001
+ 1532  vi lib/pages/settings.py
+ 1533  ./alerts.rpy -p 8001
+ 1534  vi lib/pages/settings.py
+ 1535  ./alerts.rpy -p 8001
+ 1536  vi lib/pages/settings.py
+ 1537  ./alerts.rpy -p 8001
+ 1538  vi lib/pages/settings.py
+ 1539  ./alerts.rpy -p 8001
+ 1540  cd workspace/master_thesis/modular_EM/
+ 1541  ipython
+ 1542  cd src
+ 1543  ipython
+ 1544  clear
+ 1545  cd ../../python-vote-core/
+ 1546  clear
+ 1547  ls
+ 1548  ipython
+ 1549  clear
+ 1550  cd ../modular_EM/src
+ 1551  ipython
+ 1552  clear
+ 1553  cd ../test
+ 1554  vi em_wine_dataset.py_old 
+ 1555  mv em_zoo_dataset.py em_zoo_dataset.py_old
+ 1556  cp em_car_dataset.py em_zoo_dataset.py
+ 1557  vi em_zoo_dataset.py_old 
+ 1558  vi em_zoo_dataset.py
+ 1559  ./em_zoo_dataset.py
+ 1560  vi em_zoo_dataset.py
+ 1561  ./em_zoo_dataset.py > ../output/050912zoo02
+ 1562  ./em_zoo_dataset.py 
+ 1563  vi em_zoo_dataset.py
+ 1564  ./em_zoo_dataset.py 
+ 1565  vi em_zoo_dataset.py
+ 1566  rm *.py_old
+ 1567  ls
+ 1568  clear
+ 1569  cd ../dataset/
+ 1570  ls
+ 1571  cd ../output/
+ 1572  tailf 050912abalone01 
+ 1573  vi 050912abalone01 
+ 1574  tailf 050912abalone01 
+ 1575  vi 050912abalone01 
+ 1576  ipython
+ 1577  vi 050912abalone01 
+ 1578  tailf 050912abalone01 
+ 1579  vi 050912abalone01 
+ 1580  cd ../
+ 1581  cd src
+ 1582  ipython
+ 1583  cd src
+ 1584  ipython
+ 1585  cd ../test
+ 1586  ipython
+ 1587  ipython -pylab
+ 1588  sudo apt-get install python-matplotlib
+ 1589  ipython -pylab
+ 1590  cd workspace/master_thesis/
+ 1591  cd modular_EM/
+ 1592  cd src
+ 1593  vi crowds_EM.py
+ 1594  cp ../output/X.npy ../output/Y.npy .
+ 1595  clear
+ 1596  vi crowds_EM.py
+ 1597  ./em_wine_dataset.py > ../output/050912wine01
+ 1598  vi ../output/050912wine01 
+ 1599  ./em_car_dataset.py > ../output/050912car01
+ 1600  cd ../..
+ 1601  git clone https://github.com/bradbeattie/python-vote-core.git
+ 1602  cd python-vote-core/
+ 1603  ls
+ 1604  cd pyvotecore/
+ 1605  ls
+ 1606  cd ..
+ 1607  clear
+ 1608  python setup.py install
+ 1609  sudo python setup.py install
+ 1610  clear
+ 1611  ls
+ 1612  cd ../../
+ 1613  cd trustyou/alerts_app/
+ 1614  python setup.py install
+ 1615  sudo python setup.py install
+ 1616  clear
+ 1617  ./alerts.rpy 
+ 1618  vi alerts.rpy 
+ 1619  ./alerts.rpy 
+ 1620  vi alerts.rpy 
+ 1621  ./alerts.rpy 
+ 1622  vi alerts.rpy 
+ 1623  ls
+ 1624  vi alerts.rpy 
+ 1625  ls
+ 1626  ./alerts.rpy 
+ 1627  vi alerts.rpy 
+ 1628  ./alerts.rpy 
+ 1629  vi alerts.rpy 
+ 1630  ./alerts.rpy 
+ 1631  echo $PYTHONPATH
+ 1632  clear
+ 1633  cd ../../master_thesis/
+ 1634  clear
+ 1635  ls
+ 1636  cd python-vote-core/
+ 1637  ls
+ 1638  vi test_functionality/
+ 1639  cd test_functionality/
+ 1640  vi test_schulze_stv.py 
+ 1641  vi test_schulze_by_graph.py 
+ 1642  clear
+ 1643  ls
+ 1644  vi test_irv.py 
+ 1645  vi test_stv.py 
+ 1646  vi test_condorcet.py 
+ 1647  vi test_schulze_npr.py 
+ 1648  clear
+ 1649  cd ../../zoo_dataset/
+ 1650  ls
+ 1651  vi zoo.names 
+ 1652  vi zoo.data 
+ 1653  cp zoo.data dataset_zoo
+ 1654  ci dataset_zoo 
+ 1655  vi dataset_zoo 
+ 1656  cp dataset_zoo ../.
+ 1657  cp dataset_zoo ../modular_EM/dataset/
+ 1658  cd ../modular_EM/dataset/
+ 1659  ls
+ 1660  clear
+ 1661  chmod 644 *
+ 1662  ls
+ 1663  clear
+ 1664  cd ../src
+ 1665  ls
+ 1666  cp em_car_dataset.py em_zoo_dataset.py
+ 1667  vi em_zoo_dataset.py 
+ 1668  clear
+ 1669  ./em_zoo_dataset.py > ../output/050912zoo01
+ 1670  vi ../output/050912zoo01 
+ 1671  vi em_zoo_dataset.py 
+ 1672  vi ../output/050912zoo01 
+ 1673  vi crowds_EM.py
+ 1674  vi em_zoo_dataset.py 
+ 1675  ./em_zoo_dataset.py > ../output/050912zoo01
+ 1676  vi ../output/050912zoo01 
+ 1677  ls
+ 1678  rm *.pyc
+ 1679  ls
+ 1680  mv crowds_EM_working.py ../../EM/
+ 1681  ls
+ 1682  mv X.npy Y.npy ../../EM/
+ 1683  ls
+ 1684  vi crowds_EM.py 
+ 1685  vi EM_algorithm.py 
+ 1686  mv new_NR_logistic_regr.py NR_logistic_regr.py 
+ 1687  clear
+ 1688  ls
+ 1689  chmod 644 utils.py 
+ 1690  clear
+ 1691  ls
+ 1692  mkdir ../test/
+ 1693  mv em_* ../test/
+ 1694  ls
+ 1695  clear
+ 1696  cd ..
+ 1697  cd test
+ 1698  ls
+ 1699  vi em_car_dataset.py 
+ 1700  ./em_car_dataset.py 
+ 1701  clear
+ 1702  vi em_car_dataset.py 
+ 1703  cd ../src
+ 1704  ls
+ 1705  vi crowds_EM.py
+ 1706  cd ../test/
+ 1707  ./em_car_dataset.py 
+ 1708  clear
+ 1709  ls
+ 1710  vi em_wine_dataset.py 
+ 1711  mv em_wine_dataset.py em_wine_dataset.py_old
+ 1712  cp em_car_dataset.py em_wine_dataset.py
+ 1713  vi em_wine_dataset.py
+ 1714  ./em_wine_dataset.py
+ 1715  clear
+ 1716  ls
+ 1717  clear
+ 1718  cd ../..
+ 1719  ls
+ 1720  cd breast_cancer/
+ 1721  ls
+ 1722  vi breast-cancer-wisconsin.names 
+ 1723  vi breast-cancer-wisconsin.data 
+ 1724  vi transformData.py
+ 1725  chmod u+x transformData.py 
+ 1726  ./transformData.py 
+ 1727  ls
+ 1728  vi transformData.py 
+ 1729  ls
+ 1730  ./transformData.py 
+ 1731  ipython
+ 1732  vi transformData.py 
+ 1733  ./transformData.py 
+ 1734  vi transformData.py 
+ 1735  ./transformData.py 
+ 1736  vi transformData.py 
+ 1737  ./transformData.py 
+ 1738  vi transformData.py 
+ 1739  ./transformData.py 
+ 1740  vi transformData.py 
+ 1741  ./transformData.py 
+ 1742  vi transformData.py 
+ 1743  ./transformData.py 
+ 1744  vi transformData.py 
+ 1745  ./transformData.py 
+ 1746  vi transformData.py 
+ 1747  ./transformData.py 
+ 1748  clear
+ 1749  vi transformData.py 
+ 1750  ./transformData.py 
+ 1751  vi dataset_breastcancer 
+ 1752  cp dataset_breastcancer ../modular_EM/dataset/
+ 1753  cd ../modular_EM/test/
+ 1754  cp em_zoo_dataset.py em_breastcancer_dataset.py
+ 1755  vi em_breastcancer_dataset.py 
+ 1756  ./em_breastcancer_dataset.py 
+ 1757  vi em_breastcancer_dataset.py 
+ 1758  ./em_breastcancer_dataset.py 
+ 1759  vi em_breastcancer_dataset.py 
+ 1760  ./em_breastcancer_dataset.py 
+ 1761  vi ../dataset/dataset_breastcancer 
+ 1762  vi em_breastcancer_dataset.py 
+ 1763  vi ../dataset/dataset_breastcancer 
+ 1764  ./em_breastcancer_dataset.py 
+ 1765  ls
+ 1766  clear
+ 1767  ls
+ 1768  cd ../../abalone_dataset/
+ 1769  ls
+ 1770  vi abalone.names 
+ 1771  vi abalone.data 
+ 1772  cp abalone.data dataset_abalone
+ 1773  vi dataset_abalone 
+ 1774  clear
+ 1775  cp dataset_abalone ../modular_EM/dataset/
+ 1776  clear
+ 1777  cd ../modular_EM/test/
+ 1778  cp em_zoo_dataset.py em_abalone_dataset.py
+ 1779  vi em_abalone_dataset.py 
+ 1780  vi ../../abalone_dataset/abalone.names 
+ 1781  vi em_abalone_dataset.py 
+ 1782  ./em_abalone_dataset.py > ../output/050912abalone01
+ 1783  vi em_abalone_dataset.py 
+ 1784  vi ../../abalone_dataset/
+ 1785  vi em_abalone_dataset.py 
+ 1786  ./em_abalone_dataset.py > ../output/050912abalone01
+ 1787  vi em_abalone_dataset.py 
+ 1788  ./em_abalone_dataset.py > ../output/050912abalone01
+ 1789  clear
+ 1790  cd ../src
+ 1791  vi utils.py
+ 1792  vi crowds_EM.py
+ 1793  cd ../test/
+ 1794  vi em_car_dataset.py 
+ 1795  cd ../src
+ 1796  vi em_car_dataset.py 
+ 1797  vi crowds_EM.py
+ 1798  cd ../test
+ 1799  vi em_car_dataset.py 
+ 1800  vi t
+ 1801  cd workspace/
+ 1802  cd master_thesis/
+ 1803  cd modular_EM/
+ 1804  clear
+ 1805  locate vimrc
+ 1806  sudo vi /etc/vim/vimrc
+ 1807  clear
+ 1808  cd src
+ 1809  vi crowds_EM.py
+ 1810  ipython
+ 1811  clear
+ 1812  cd ../test
+ 1813  clear
+ 1814  ipython
+ 1815  vi /home/meyyu/workspace/trustyou/alerts_app/alerts.rpy 
+ 1816  vi em_zoo_dataset.py 
+ 1817  vi /home/meyyu/workspace/trustyou/alerts_app/alerts.rpy 
+ 1818  ipython
+ 1819  clear
+ 1820  vi /home/meyyu/workspace/trustyou/newalerts/lib/alerts.py 
+ 1821  ls
+ 1822  ls /home/meyyu/workspace/trustyou/newalerts/lib/
+ 1823  cd /home/meyyu/workspace/trustyou/dedup/src/
+ 1824  ls
+ 1825  cd ..
+ 1826  clear
+ 1827  cd ~/workspace/trustyou/
+ 1828  ls
+ 1829  cd dedup/
+ 1830  ls
+ 1831  cd ../
+ 1832  ;s
+ 1833  ls
+ 1834  cd performance\ calc/
+ 1835  ;s
+ 1836  ls
+ 1837  cd ..
+ 1838  ls
+ 1839  cd alert
+ 1840  cd alerting_system/
+ 1841  ls
+ 1842  cd ../newalerts
+ 1843  cd lib/
+ 1844  cd ../scripts/
+ 1845  vi start_job.py 
+ 1846  cd -
+ 1847  cd ~/workspace/master_thesis/modular_EM/test
+ 1848  ipython
+ 1849  cd ~/workspace/trustyou/newalerts/scripts/
+ 1850  vi start_job.py 
+ 1851  cd ~/workspace/master_thesis/modular_EM/test
+ 1852  clear
+ 1853  ipython
+ 1854  vi /home/meyyu/workspace/trustyou/newalerts/scripts/start_job.py 
+ 1855  cd ~/workspace/master_thesis/modular_EM/test
+ 1856  vi em_car_dataset.py 
+ 1857  ipython
+ 1858  clear
+ 1859  ls
+ 1860  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.40,0.90,0.90,0.90,0.20,0.30,0.30,0.50,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90   -b 0 -l 3 -s 0 -d ','
+ 1861  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.40,0.90,0.90,0.90,0.20,0.30,0.30,0.50,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90   -b 0 -l 3 -s 0 -d ','
+ 1862  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10, 1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 1863  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 1864  vi ../src/utils.py
+ 1865  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 1866  vi ../src/utils.py
+ 1867  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 1868  vi ../src/utils.py
+ 1869  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 1870  vi ../src/utils.py
+ 1871  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 1872  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 10 -s 1 -d ';'
+ 1873  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 1874  vi em_test.py 
+ 1875  ./em_test.py  -f ../dataset/dataset_zoo  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 1 -l 7 -s 0 -d ','
+ 1876  ssh -L 5432:vi1.trustyou.com:5432 meyyarp@vi1.trustyou.com
+ 1877  cd workspace/master_thesis/modular_EM/
+ 1878  cd src
+ 1879  clear
+ 1880  ls
+ 1881  ipython
+ 1882  ls
+ 1883  clear
+ 1884  vi utils.py
+ 1885  vi ../../../python_algos/sample_plt.py
+ 1886  cd ../../../python_algos/
+ 1887  clear
+ 1888  chmod u+x sample_plt.py 
+ 1889  ./sample_plt.py 
+ 1890  vi sample_plt.py 
+ 1891  ./sample_plt.py 
+ 1892  cd -
+ 1893  vi utils.py
+ 1894  vi crowds_EM.py
+ 1895  cd ../test/
+ 1896  vi em_car_dataset.py 
+ 1897  cd ../src/
+ 1898  vi crowds_EM.py
+ 1899  vi em_car_dataset.py 
+ 1900  cd ../src/
+ 1901  vi crowds_EM.py
+ 1902  vi utils.py
+ 1903  vi crowds_EM.py
+ 1904  vi utils.py
+ 1905  vi crowds_EM.py
+ 1906  vi utils.py
+ 1907  vi crowds_EM.py
+ 1908  vi utils.py
+ 1909  clear
+ 1910  cd test
+ 1911  cd ../test
+ 1912  vi em_zoo_dataset.py 
+ 1913  ls
+ 1914  mkdir images
+ 1915  mv *.png images/
+ 1916  ls
+ 1917  clear
+ 1918  ls
+ 1919  cd ../src
+ 1920  vi crowds_EM.py
+ 1921  cd ../test/
+ 1922  cp em_zoo_dataset.py em_test.py
+ 1923  vi em_test.py 
+ 1924  ./em_test.py 
+ 1925  vi em_test.py 
+ 1926  ./em_test.py 
+ 1927  ./em_test.py --help
+ 1928  ./em_test.py -h
+ 1929  vi em_test.py 
+ 1930  ./em_test.py -h
+ 1931  ./em_test.py 
+ 1932  vi em_test.py 
+ 1933  ./em_test.py 
+ 1934  vi em_test.py 
+ 1935  ./em_test.py 
+ 1936  vi em_test.py 
+ 1937  ./em_test.py 
+ 1938  vi em_test.py 
+ 1939  ./em_test.py 
+ 1940  vi em_test.py 
+ 1941  ./em_test.py 
+ 1942  vi em_test.py 
+ 1943  ./em_test.py 
+ 1944  vi em_test.py 
+ 1945  ./em_test.py 
+ 1946  vi em_test.py 
+ 1947  ./em_test.py 
+ 1948  vi em_test.py 
+ 1949  ./em_test.py  -h
+ 1950  vi em_test.py 
+ 1951  ./em_test.py  -f ../dataset/dataset_car 
+ 1952  vi em_test.py 
+ 1953  ./em_test.py  -f ../dataset/dataset_car 
+ 1954  vi em_test.py 
+ 1955  ./em_test.py  -f ../dataset/dataset_car 
+ 1956  ./em_test.py  -h
+ 1957  ./em_test.py  -f ../dataset/dataset_car  -e [0.10, 0.90, 0.20, 0.30, 0.40, 0.50, 0.60, 0.90, 0, 0, 1.0, 0, 0, 0.30, 0.70, 0.40] -b 0 -l 3
+ 1958  vi em_test.py 
+ 1959  vi ../src/crowds_EM.py
+ 1960  vi ../src/utils.py
+ 1961  clear
+ 1962  run em_test.py  -f ../dataset/dataset_  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40 -b 1 -l 7
+ 1963  run em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50 -b 0 -l 10
+ 1964  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50 -b 0 -l 10
+ 1965  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50 -b 0 -l 10 -s 1
+ 1966  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50 -b 0 -l 10 -s 1 -d ;
+ 1967  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50 -b 0 -l 10 -s 1 -d ';'
+ 1968  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50 -b 0 -l 0 -s 1 -d ';'
+ 1969  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50 -b 1 -l 10 -s 1 -d ';'
+ 1970  clear
+ 1971  cd ../.
+ 1972  cd ~/Desktop/Master\ Thesis/
+ 1973  ls
+ 1974  mkdir preliminary_presentation_050912
+ 1975  cd preliminary_presentation_050912/
+ 1976  ls
+ 1977  clear
+ 1978  cp ../Master\ proposal\ \(Han\)/* .
+ 1979  ls
+ 1980  rm thesis_proposal.log 
+ 1981  rm thesis_proposal.pdf 
+ 1982  rm thesis_proposal.out 
+ 1983  rm *
+ 1984  clear
+ 1985  ls
+ 1986  cp ~/Desktop/education/ML_seminar/presentation.* .
+ 1987  rubber -d presentation.tex 
+ 1988  evince presentation.pdf 
+ 1989  clear
+ 1990  rubber -d presentation.tex 
+ 1991  evince presentation.pdf 
+ 1992  bg
+ 1993  rubber -d presentation.tex 
+ 1994  cd ~/workspace/master_thesis/modular_EM/src
+ 1995  vi crowds_EM.py
+ 1996  vi utils.py
+ 1997  cd Desktop/education/ML_seminar/
+ 1998  vi presentation.tex 
+ 1999  clear
+ 2000  cd ~/workspace/master_thesis/modular_EM/dataset/
+ 2001  cat dataset_zoo | wc -l
+ 2002  cat dataset_abalone | wc -l
+ 2003  cat dataset_car | wc -l
+ 2004  cat dataset_breastcancer | wc -l
+ 2005  cd ../test/
+ 2006  vi em_test.py 
+ 2007  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0 -b 0 -l 3 
+ 2008  ./em_test.py  -f ../dataset/dataset_zoo  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,0.90,0.90,0.80,0.10,0.60,0.20,0.60,0.90,0,0 -b 1 -l 7
+ 2009  vi em_test.py 
+ 2010  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 3 -s 0 -d ','
+ 2011  ./em_test.py  -f ../dataset/winequality-red.csv  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.30,0.70,0.40,0.10,0.20,0.30,0.70,0.60,0.50,0.90,1.0,0,0.30,0.40,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.90,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.90,0.50,0.90,1.0,0,0.90,0.90,0.80,0.80,0.20,0.40,0.50,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,1.0,0,0,0.90,0.90,0.90,0.90,0.90,0.90,0.70,0.90,0.90,0.90,1.0,0,0.90,0.90,0.80,0.80,0.90,0.90,0.90,0.10,1,1,0.90   -b 0 -l 10 -s 1 -d ';'
+ 2012  ./em_test.py  -f ../dataset/dataset_zoo  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0,0,0.90,0.90,0.80,0.80,0.80,0.80,0.60,0.90,1.0,1.0 -b 1 -l 7
+ 2013  ./em_test.py  -f ../dataset/dataset_zoo  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0.90,0.90,0.90,0.90,0.80,0.80,0.80,0.80,0.60,0.90,1.0,1.0 -b 1 -l 7
+ 2014  vi ../src/crowds_EM.py
+ 2015  ./em_test.py  -f ../dataset/dataset_zoo  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0.90,0.90,0.90,0.90,0.80,0.80,0.80,0.80,0.60,0.90,1.0,1.0 -b 1 -l 7
+ 2016  ./em_test.py  -f ../dataset/dataset_zoo  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0.90,0.90,0.90,0.90,0.80,0.80,0.80,0.80,0.60,0.90,1.0,1.0,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0.90,0.90,0.90,0.90,0.80,0.80,0.80,0.80,0.60,0.90,1.0,1.0,0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0.90,0.90 -b 1 -l 7
+ 2017  ./em_test.py  -f ../dataset/dataset_abalone  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,0.90,0.90,0.90,0.90,0.20,0.30,0.10,0.10,0.60,0.10,1.0,1.0 -b 5 -l 20
+ 2018  ./em_test.py  -f ../dataset/dataset_car  -e 0.10,0.90,0.20,0.30,0.40,0.50,0.60,0.90,1.0,1.0 -b 0 -l 3 
+ 2019  vi em_wine_dataset.py 
+ 2020  history > commands
